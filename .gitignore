@@ -1,0 +1,11 @@
+# ignore python virtual environment
+venv/
+veenv/
+venv3/
+# ignore all python compilation files
+*.pyc
+*.npy
+# ignore all graphic files
+*.pdf
+*.svg
+*.mp4
