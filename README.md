@@ -4,11 +4,10 @@
 ### Pre-process and filtering `MATLAB`
  - `make_fluo_data.m`: Launches the pre-processing of the fluorescent Calcium data with the parameters
 
- - `utilities/preview_image_stack.m`: Crop, rotate, and other basic pre-processing functions.
-                       It requires a basic set of parameters that can be found 
-                       at examples/make_fluo_data.m
+ - `preview_image_stack.m`: Crop, rotate, and other basic pre-processing functions.
+                       It requires a basic set of parameters.
                      
- - `utilities/process_image_stack.m`: Processes the whole image stack according to the
+ - `process_image_stack.m`: Processes the whole image stack according to the
                             predefined parameters. It creates a file with the
                             filtered data and calls the plotting functions when
                             required.
